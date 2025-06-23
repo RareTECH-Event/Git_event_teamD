@@ -1,19 +1,19 @@
 def main():
     while True:
         print("選択してください：")
-        print("1: しゅーぽ")
-        print("2: ゆうすけ")
-        print("3: ヨウズ")
+        print("1: メンバー1の名前")
+        print("2: メンバー2の名前")
+        print("3: メンバー3の名前")
         print("q: 終了")
 
         choice = input("> ")
 
         if choice == "1":
-            print("こんばんは")
+            print("メンバー1のコメント")
         elif choice == "2":
-            print("初心者です")
+            print("メンバー2のコメント")
         elif choice == "3":
-            print("レアテック")
+            print("メンバー3のコメント")
         elif choice == "q":
             print("プログラムを終了します。")
             break
@@ -22,4 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
